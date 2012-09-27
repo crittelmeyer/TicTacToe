@@ -7,6 +7,20 @@
 * Twitter: [@crittelmeyer](http://twitter.com/crittelmeyer)
 
 
+## TODO
+
+* Integrate with node.js & socket.io to make multiplayer
+* Refactor into CoffeeScript
+* Add support for bigger tic tac toe grids -> style cells dynamically
+* Add media queries to make design responsive -> test in iPad, iPhone, iPhone 5
+* Add modernizr & require.js functionality
+* Add load/save game capabilities using MongoDB & Mongoose
+* Add Jasmine tests
+* Profile with YUI profiler
+* Properly document and run jsdoc
+* Lookup restify... can we use it somehow?
+
+
 ## Quick start
 
 * To play: Navigate to http://www.floatingtree.com/TicTacToe and create a new game!
