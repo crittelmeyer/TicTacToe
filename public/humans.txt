@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris Rittelmeyer -- Developer -- @crittelmeyer
+    Victor Tolbert -- Developer --
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, HTML5BoilerPlate
+    CSS3, SASS
+    jQuery, Modernizr, Require.js, node.js, Backbone.js
+    MongoDB, Mongoose
+    jsDoc, jasmine
