@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$board_width: 200px;
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.6em;
+}
+
+#app {
+  border: solid black 1px;
+  float: left;
+  width: $board_width;
+}
+.board ul {
+  border: solid black 1px;
+  float: left;
+  height: ($board_width / 3);
+  list-style-type: none;
+  width: $board_width;
+}
+.board ul li {
+  border-right: solid black 1px;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  line-height: 2.6em;
+  width: ($board_width / 3) - (1);
+}
