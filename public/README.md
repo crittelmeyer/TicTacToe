@@ -19,6 +19,8 @@
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE7+).
 * Designed with progressive enhancement (graceful degradation) in mind.
 * Responsive techniques to ensure high-quality playability for common mobile platforms.
+* Protection against any stray `console.log` causing JavaScript errors in
+  IE6/7.
 * Uses Compass/SASS for CSS.
 * Written in [CoffeeScript](http://coffeescript.org/)
 * The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
